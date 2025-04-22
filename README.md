@@ -1,7 +1,7 @@
-Toxic Comment Classification
+**Toxic Comment Classification**
 This project is a Machine Learning web app that classifies user-submitted text as toxic or non-toxic, using a deep learning model built with TensorFlow and deployed with an interactive Gradio interface.
 
-🚀 Features
+**🚀 Features**
 Classifies text as different labels of toxic
 
 Built using a deep learning model trained on the Jigsaw Toxic Comment Classification dataset
@@ -16,7 +16,7 @@ Screenshots:
 
 
 
-🛠️ Tech Stack
+**Tech Stack**
 Python 3.12
 
 TensorFlow – for building and training the neural network
@@ -26,7 +26,8 @@ Gradio – for creating the web interface
 Pandas & NumPy – for data handling
 
 Scikit-learn – for data preprocessing and evaluation
-Dataset
+
+**Dataset**
 The model is trained on the Jigsaw Toxic Comment Classification Challenge dataset from Kaggle, which contains over 150k comments labeled as:
 
 toxic
@@ -40,7 +41,7 @@ threat
 insult
 
 identity_hate
-How It Works
+**How It Works**
 User submits a text comment via the Gradio interface.
 
 The input is preprocessed using standard NLP techniques (lowercasing, punctuation removal, tokenization).
